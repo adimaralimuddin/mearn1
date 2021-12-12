@@ -1,0 +1,34 @@
+
+
+http://localhost:8080/
+
+###
+
+POST http://localhost:8080/new
+content-type: application/json
+
+{
+    "name": "sample",
+    "age": 25
+}
+
+###
+
+http://localhost:8080/product/61b2c25db3a26c0028c6acf8
+
+###
+
+PUT http://localhost:8080/product/sample
+Content-Type: application/json
+
+{
+    "name":"updated from whatever",
+    "age":26
+}
+###
+
+DELETE  http://localhost:8080/product/61b2c25db3a26c0028c6acf8/
+
+###
+
+ DELETE  http://localhost:8080/test/all
